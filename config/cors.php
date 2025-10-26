@@ -19,7 +19,11 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => [
+        'https://gestionempleados-frontend-production.up.railway.app',
+        'http://localhost:4200', // Para desarrollo local
+        'http://127.0.0.1:4200',
+    ],
 
     'allowed_origins_patterns' => [],
 
